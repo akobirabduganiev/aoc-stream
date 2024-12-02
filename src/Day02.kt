@@ -23,16 +23,15 @@ fun isSafe(report: List<Int>): Boolean {
 
 // Day 2 - Part 2
 fun isSafeWithDampener(report: List<Int>): Boolean {
-	// If the report is already safe, return true
 	if (isSafe(report)) return true
 	
 	for (i in report.indices) {
 		val modifiedReport = report.filterIndexed { index, _ -> index != i }
 		if (isSafe(modifiedReport)) {
-			return true // Found a safe configuration by removing one level
+			return true
 		}
 	}
 	
-	return false // No safe configuration found
+	return false
 }
 
