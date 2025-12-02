@@ -1,6 +1,9 @@
+package new2024
+
 import java.io.File
 import java.util.LinkedList
 import java.util.Queue
+import kotlin.collections.iterator
 
 fun main() {
     val inputFilePath = "input/day05.txt"

@@ -1,3 +1,5 @@
+package new2024
+
 import kotlin.math.abs
 
 fun main() {

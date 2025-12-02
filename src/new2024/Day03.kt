@@ -1,3 +1,5 @@
+package new2024
+
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 
